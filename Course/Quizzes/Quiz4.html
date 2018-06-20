@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Excercise</title>
+</head>
+<body>
+
+<!-- What did i do wrong? -->
+<!-- I've used <br> while i could have used <div></div> -->
+<!-- I forgot to require the first and last name and the emailadress -->
+<!-- I used minlength="5" maxlength="10" while you can better use pattern=".{5,10}" -->
+
+<!-- This is a tip! You don't have to use the for="" and id="" for the label. You could just write the code (<input> or <select> etc) within the label -->
+
+<h1>Register</h1>
+
+<form>
+	<label for="first name">
+		First Name:
+	</label>
+	<input type="text" name="name" id="first name" placeholder="John" required>
+	<label for="last name">
+		Last Name:
+	</label>
+	<input type="text" name="name" id="last name" placeholder="Smith" required>
+
+	<div>
+		<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male">
+		<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="female">
+		<label for="other">Other</label>
+			<input type="radio" name="gender" id="other" value="other">
+	</div>
+	
+
+	<div>
+		<label for="emailadress">Email:</label>
+			<input type="email" name="emailadress" id="emailadress" placeholder="your email" required>
+		<label for="password">Password:</label>
+			<input type="Password" name="password" id="password" pattern=".{5,10}" required title="5 to 10 characters">
+	</div>
+
+	
+
+	<div>
+		<label>
+			Birthday:
+			<select name="month">
+				<option>Month</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+			</select>
+			<select name="day">
+				<option>Day</option>
+				<option>01</option>
+				<option>02</option>
+				<option>03</option>
+			</select>
+			<select name="year">
+				<option>Year</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+			</select>
+		</label>	
+	</div>
+
+	<div>
+		<label for="agreed">I agree to the terms and conditions</label>
+		<input id="agreed" type="checkbox" name="terms and conditions">
+	</div>
+	 
+	<button>Submit</button>
+</form>
+
+</body>
+</html>
