@@ -1,0 +1,25 @@
+h1 {
+	color: rgba(0,200,100,0.8);
+}
+
+h4 {
+	background: rgb(0,200,150);
+
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px solid purple;
+}
+
+/* You need width, color AND style to set a border */
+
+body {
+	background: rgb(255,100,80);
+/*	This is to set a img as background
+	background: url(https://cdn.shopify.com/s/files/1/0742/6023/products/Cherry_wood_full_sheet_large.jpg?v=1440787856);*/
+/*	This is to stop the image from repeating
+	background-repeat: no-repeat;*/
+/*	This is to stretch out the img
+	background-size: cover;*/
+}

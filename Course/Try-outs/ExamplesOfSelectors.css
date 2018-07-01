@@ -1,0 +1,51 @@
+/*Element*//*Everything with this element name will have this styling*/
+li {
+
+}
+
+/*Class*//*Everything with this class will get this styling*/
+.hello {
+
+}
+
+/*ID*//*You can only give 1 element an ID, only this element will get this styling*/
+#name {
+
+}
+
+/*Star*//*Everything will get this styling*/
+* {
+
+}
+
+/*Descendant Selectory*//*You select every element within a ... (within a ...)*/
+li a {	/*Every a within a li*/
+
+}
+li .hello {	/*Every element with the class .hello within a li*/
+
+}
+
+/*Adjacent Selector*//*Every ... element after a ...*/
+h4 + ul {	/*Every ul that comes RIGHT after a h4*/
+
+}
+
+/*Attribute Selector*//*Every link that goes to google or every image with the same source or all inputs of a particular source*/
+a[href="https://www.google.com"] {
+
+}
+input[type="checkbox"] {
+
+}
+
+/*nth of type*//*Every *number* of a certain type*/
+ul:nth-of-type(3) {	/*Every third ul (so also if you have 3 ul's within a element) will get this styling*/
+
+}
+li:nth-of-type(3) {	/*Every third li (so within every ul or ol every third will be selected) will get this styling*/
+
+}
+li:nth-of-type(even) {	/*Every even number li within every ul or ol*/
+
+}

@@ -1,0 +1,12 @@
+li {
+	color: blue;
+}
+
+/*An ID can only be used on ONE element*/
+#special {
+	color: magenta;
+}
+
+.completed {
+	text-decoration: line-through;
+}
