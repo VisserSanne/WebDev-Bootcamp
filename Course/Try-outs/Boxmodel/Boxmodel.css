@@ -1,0 +1,19 @@
+p {
+
+/*Content - Width and Height*/
+width: 50%;		/*This can be in px or in percentage (the percentage will be taken from the parent element)*/
+
+/*Border*/
+border: 2px solid blue;
+
+/*Padding*/
+padding: 10px;	/*(you could also use "padding-left" etc, to choose a side you want the padding on)*/
+
+/*Margin*/
+/*margin: 100px;*/
+/*Short cut:*/
+/*margin: 20px(=top) 40px(=right) 500px(=bottom) 100px(=left);*/
+/*You could also use "auto" that calculates the margin on it's own*/
+margin: 0 auto;	/*Now it picks the 0 for both the top and the bottom and the auto for the right and left*/
+
+}

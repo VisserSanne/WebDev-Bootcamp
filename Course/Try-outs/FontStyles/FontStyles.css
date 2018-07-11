@@ -1,0 +1,43 @@
+/*font-family*/
+
+p {
+	font-family: Gaegu;
+}
+
+h1 {
+	font-family: Knewave;
+}
+
+/*font-size*/
+
+h1 {
+	font-size: 85px;
+}
+
+span {	/*The "em" makes the text ... times bigger than the parent*/
+	font-size: 1.5em;
+}
+
+/*font-weight*/
+
+p {		/*You can make the entire text for example bolded, or italic*/
+	font-weight: normal;
+}
+
+/*line-height*/
+
+p { 	/*This does exacty what it sounds like. You change the height between each line. (you can for example double it, so you fill in 2)*/
+	line-height: 1.5;
+}
+
+/*text-align*/
+
+h1 {
+	text-align: center;
+}
+
+/*text-decoration*/
+
+h1 {
+	text-decoration: overline;
+}
