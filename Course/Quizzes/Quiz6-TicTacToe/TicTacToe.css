@@ -2,21 +2,21 @@ h1 {
 	text-align: center;
 }
 
-td {
+table:nth-of-type(1) td {
 	width: 100px;
 	height: 100px;
 }
 
-table {
+.board {
 	margin: auto;
 }
 
-.vertical {
+.column {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
 
-.horizontal {
+.row {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
