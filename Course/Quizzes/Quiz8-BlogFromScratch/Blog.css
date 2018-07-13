@@ -1,0 +1,59 @@
+/*border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+
+font: source sans pro
+
+20px border around the body
+expicit width*/
+
+
+
+body {
+	/*margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;*/ 	/*This can be done way prettier*/
+	margin: 20px auto;
+	max-width: 700px;
+	width: 80%;
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	font-family: source sans pro;
+	font-weight: 600;
+}
+
+h2 {
+	color: #2c3e50;
+	font-weight: 900;
+	text-transform: capitalize;
+	font-size: 2rem;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+/*.betweenArticles {
+	height: 1px;
+	border: 0;
+	background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}*/
+
+.hr {
+	height: 1px;
+	border: 0;
+	background-color: lightgrey;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: 700;
+	margin-top: 0px;
+}
+
+.firstParagraph {
+	padding-left: 5px;
+	border-left: 5px solid #bdc3c7;
+}
