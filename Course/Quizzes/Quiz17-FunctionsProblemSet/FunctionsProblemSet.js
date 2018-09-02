@@ -14,7 +14,7 @@ function factorial(num) {
     return result;
 }
 
-var regex = /-/gi;
+var regex = /-/g;
 function kebabToSnake(str) {
     return str.replace(regex, "_");
 }
