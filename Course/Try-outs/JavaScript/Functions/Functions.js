@@ -13,7 +13,7 @@ name();
 
 //Example
 function sayHi() {
-    console,log("Hello!");
+    console.log("Hello!");
     console.log("Goodbye!");
 }
 // Call it:
